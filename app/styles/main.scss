@@ -1,0 +1,14 @@
+$icon-font-path: '../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/';
+
+// Reset
+body {
+  margin: 0;
+
+  &, * {
+    box-sizing: border-box;
+  }
+}
+
+@import "./components/ui-pages";
+@import "./components/ui-page";
+
